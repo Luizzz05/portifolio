@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display+swap');
+
+*{
+    margin: 0;
+    padding: 0 ;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background-color: rgb(69, 87, 102);
+}
+
+.cabecalho{
+    font-family: 'Riighteous' ,sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(46, 46, 46);
+}
+
+nav a{
+    color: white;
+    font-family: 'Sarala' ,sans-serif;
+    padding: 5px;
+    margin: 0 50px;
+}
+
+nav a:hover{
+    color: gray;
+}
+
+.principal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.principal-curriculo{
+    display: flex;
+}
+
+.principal-titulo{
+    color: white;
+    font-family: 'Riighteous' ,sans-serif;
+}
+
+.principal-imagem img{
+    width: 550px;
+    height: auto;
+    border-radius: 20px;
+}
+
+footer{
+    font-family: 'Sarala' ,sans-serif;
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
